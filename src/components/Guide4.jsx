@@ -32,7 +32,8 @@ export default function Guide4() {
               <img
                 src={img.src}
                 alt={img.alt}
-                className="w-full h-40 md:h-48 lg:h-56 object-cover transition-transform duration-500 group-hover:scale-105"
+                className="w-full h-40 md:h-48 lg:h-56 object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
                 decoding="async"
               />
             </div>

@@ -1,14 +1,12 @@
-/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
       fontFamily: {
-        heading: ['"Noto Serif JP"', 'serif'],
-        body: ['"Noto Sans JP"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        body: ["system-ui", "sans-serif"],
       },
     },
   },

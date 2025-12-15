@@ -11,12 +11,11 @@ const Guide1 = () => {
 
         <div className="w-full h-[400px] rounded-lg overflow-hidden shadow bg-gray-100">
           <img
-  src="/guide1-map.jpg"
-  alt="会場地図"
-  className="w-full h-full object-cover"
-  loading="lazy"
-/>
-
+            src={`${import.meta.env.BASE_URL}guide1-map.jpg`}
+            alt="会場地図"
+            className="w-full h-full object-cover"
+            loading="lazy"
+          />
         </div>
 
         <div className="mt-4">

@@ -25,7 +25,7 @@ export default function Description() {
           <div className="bg-white p-6 rounded-lg shadow">
             <div className="text-4xl mb-4">🎂</div>
             <h4 className="font-heading font-semibold mb-2">イベント</h4>
-            <p className="font-body text-gray-700 leading-relaxed mb-4">誕生日会ect</p>
+            <p className="font-body text-gray-700 leading-relaxed mb-4">誕生日会etc.</p>
             <a href="#guide3" className="inline-block bg-blue-600 text-white text-sm font-medium px-4 py-2 rounded hover:bg-blue-500 transition">
               イベントを見る
             </a>
